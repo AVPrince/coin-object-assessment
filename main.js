@@ -42,7 +42,7 @@ container.style.height = '100px';
 document.body.append(coin.toHTML())
 
 function display20Flips (){
-    for (let i = 0; i < coin.length; i++) {
+    for (let i = 0; i < 20; i++) {
         document.body.append(coin.toString())
     }
     /* Write a function called display20Flips that uses a loop to flip the coin 20 times. Each time the coin flips, display the result of each flip as a string on the page (make use of your toString() method) */
